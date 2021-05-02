@@ -3,6 +3,8 @@ import {Row,Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
+//style={{background:'linear-gradient(45deg, #44abd6, #5c71e0',height:'200px'}}
+
 const Footer = () => {
     return (
         <>

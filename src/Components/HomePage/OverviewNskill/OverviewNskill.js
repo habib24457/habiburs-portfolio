@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Button, Card } from 'react-bootstrap';
+import { Row, Col,Card } from 'react-bootstrap';
 import frontend from '../../../images/front.png';
 import backend from '../../../images/backend.png';
 import tool from '../../../images/tool.png';
@@ -14,7 +14,7 @@ const OverviewNskill = () => {
                     <Col className="mt-5 text-center">
                         <h2>Skills Overview</h2>
                         <p>I've built websites using the modern web development tools.<br /> Below you can have a quick overview of my skills or you can check my resume.</p>
-                        <Button variant="warning">Check my Resume</Button>
+                        <a class="btn btn-warning" href="https://drive.google.com/file/d/1AvijN0Zwv7oEhxRNDmXlRDboWXgo3rfb/view?usp=sharing" target="_blank" rel="noreferrer" role="button">Download My Resume</a>
                     </Col>
                 </Row>
             </Zoom>
