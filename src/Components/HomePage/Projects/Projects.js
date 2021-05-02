@@ -3,6 +3,7 @@ import { Row, Col,Carousel,Container } from 'react-bootstrap';
 import project1 from '../../../images/project1.png';
 import project2 from '../../../images/project2.png';
 import project3 from '../../../images/project3.png';
+//import projects from '../../../images/projects.jpg';
 
 // Import Swiper styles
 
@@ -15,10 +16,7 @@ const Projects = () => {
                 </Col>
             </Row>
             <Row className="mt-5">
-                <Col xs={6} md={4}>
-                   
-                </Col>
-                <Col xs={12} md={8}>
+                <Col  md={{ span: 6, offset: 3 }}>
                     <Carousel>
                         <Carousel.Item>
                             <img

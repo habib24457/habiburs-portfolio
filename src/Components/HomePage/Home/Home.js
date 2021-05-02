@@ -14,37 +14,45 @@ import Projects from '../Projects/Projects';
 import ContactMe from '../ContactMe/ContactMe';
 import Blogs from '../Blogs/Blogs';
 //import back3 from '../../../images/back3.png';
+import Zoom from 'react-reveal/Zoom';
 
 
 
 const Home = () => {
     return (
         <>
-        <Container fluid style={{backgroundImage:`url(${back1})`,backgroundRepeat:'no-repeat', width:'100%' }}>
-            <NavigationBar></NavigationBar>
-            <Slide left>
-                <Header></Header>
-            </Slide>          
-        </Container>
-        <Container>
-            <OverviewNskill></OverviewNskill>          
-        </Container>
+            <Container fluid style={{ backgroundImage: `url(${back1})`, backgroundRepeat: 'no-repeat', }}>
+                <NavigationBar></NavigationBar>
+                <Slide left>
+                    <Header></Header>
+                </Slide>
+            </Container>
+            <Container>
+                <OverviewNskill></OverviewNskill>
+            </Container>
 
-        <Container fluid style={{backgroundImage:`url(${back2})`,backgroundRepeat:'no-repeat', }} className="mt-5">
-            <Projects></Projects>
-        </Container>
-        
-        <Container>
-            <Blogs></Blogs>
-        </Container>
+            <Container fluid style={{ backgroundImage: `url(${back2})`, backgroundRepeat: 'no-repeat', backroundSize: '' }} className="mt-5">
+                <Zoom>
+                    <Projects></Projects>
+                </Zoom>
+            </Container>
 
-        <Container fluid style={{backgroundImage:`url(${back4})`,backgroundRepeat:'no-repeat', width:'100%' }} >
-            <ContactMe></ContactMe>
-        </Container>
-        <Container fluid style={{background:'linear-gradient(45deg, #44abd6, #5c71e0',height:'200px'}}
- >
-            <Footer></Footer>
-        </Container>
+            <Container>
+                <Slide right>
+                    <Blogs></Blogs>
+                </Slide>
+
+            </Container>
+
+            <Container fluid style={{ backgroundImage: `url(${back4})`, backgroundRepeat: 'no-repeat', width: '100%' }} >
+                <Zoom>
+                    <ContactMe></ContactMe>
+                </Zoom>
+            </Container>
+            <Container fluid style={{ background: 'linear-gradient(45deg, #44abd6, #5c71e0', height: '200px' }}
+            >
+                <Footer></Footer>
+            </Container>
         </>
     );
 };
