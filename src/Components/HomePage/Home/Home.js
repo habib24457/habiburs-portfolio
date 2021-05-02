@@ -9,6 +9,7 @@ import OverviewNskill from '../OverviewNskill/OverviewNskill';
 import Footer from '../Footer/Footer';
 import Slide from 'react-reveal/Slide';
 import Projects from '../Projects/Projects';
+import ContactMe from '../ContactMe/ContactMe';
 
 
 
@@ -29,6 +30,9 @@ const Home = () => {
             <Projects></Projects>
         </Container>
 
+        <Container>
+            <ContactMe></ContactMe>
+        </Container>
         <Container fluid style={{background:'linear-gradient(45deg, #44abd6, #5c71e0',height:'200px'}}>
             <Footer></Footer>
         </Container>
