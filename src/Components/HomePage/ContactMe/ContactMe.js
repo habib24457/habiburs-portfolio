@@ -5,7 +5,7 @@ const ContactMe = () => {
     return (
         <>
         <Row className="text-center mt-5 pt-5">
-            <Col>
+            <Col className="second-color myText-style">
                 <h1>Contact me</h1> 
             </Col>
         </Row>

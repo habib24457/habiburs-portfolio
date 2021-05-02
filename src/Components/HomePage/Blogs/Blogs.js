@@ -6,9 +6,10 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <>
-            <Row className="mt-5 pt-5 text-center">
+            <Row className="mt-5 pt-5 text-center second-color myText-style">
                 <Col>
                     <h2>My Blogs</h2>
+                    <hr/>
                 </Col>
             </Row>
             <Row className="mt-5">

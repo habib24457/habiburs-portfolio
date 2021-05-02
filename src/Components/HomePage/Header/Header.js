@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import profile from '../../../images/profile.jpg';
 
 
@@ -11,12 +11,16 @@ const Header = () => {
                         <Col className=" mt-5 pt-5" >
                             <div className="myText-style">
                                 <h1><span className="second-color">Habibur Rahman</span> </h1>
-                                <h5 className="second-color">I'm a full stack web developer proficient in frontend and backend development.
-                                I always focus on writing clean and efficient code.
+                                <h5 className="second-color">I'm a junior web developer with knowledge of frontend and backend(beginner) development.
+                                I always focus on writing clean and efficient code. I am passionate about programming and always ready to take challenges.
+                                To learn more about me, please have a look at my resume.
                         </h5>
                             </div>
                             <br />
-                            <Button className="mt-3 text-blue " variant="warning" size="lg">Learn more</Button>
+                            <a class="btn btn-warning" 
+                        href="https://drive.google.com/file/d/1AvijN0Zwv7oEhxRNDmXlRDboWXgo3rfb/view?usp=sharing" 
+                        target="_blank" rel="noreferrer" role="button">
+                            Download My Resume</a>
                         </Col>
                    
 

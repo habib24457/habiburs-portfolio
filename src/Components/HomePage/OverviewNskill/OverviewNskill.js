@@ -11,10 +11,12 @@ const OverviewNskill = () => {
         <>
             <Zoom>
                 <Row>
-                    <Col className="mt-5 text-center">
+                    <Col className="mt-5 text-center second-color myText-style">
                         <h2>Skills Overview</h2>
-                        <p>I've built websites using the modern web development tools.<br /> Below you can have a quick overview of my skills or you can check my resume.</p>
-                        <a class="btn btn-warning" href="https://drive.google.com/file/d/1AvijN0Zwv7oEhxRNDmXlRDboWXgo3rfb/view?usp=sharing" target="_blank" rel="noreferrer" role="button">Download My Resume</a>
+                        <p>I've built websites using the modern web development tools.<br /> 
+                        Below you can have a quick overview of my skills.<br/>
+                        </p>
+                      <hr/>
                     </Col>
                 </Row>
             </Zoom>
@@ -22,7 +24,7 @@ const OverviewNskill = () => {
             <Slide right>
             <Row className="mt-5 mb-5">
                 <Col>
-                    <Card className="shadow" style={{ width: '18rem', height: '18rem' }}>
+                    <Card className="shadow second-color myText-style" style={{ width: '18rem', height: '18rem' }}>
                         <Card.Img class="mx-auto d-block p-3" style={{ width: '100px', height: '100px' }} variant="top" src={frontend} />
                         <Card.Body>
                             <Card.Title className="text-center">Frontend</Card.Title>
@@ -38,7 +40,7 @@ const OverviewNskill = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow" style={{ width: '18rem', height: '18rem' }}>
+                    <Card className="shadow second-color myText-style" style={{ width: '18rem', height: '18rem' }}>
                         <Card.Img class="mx-auto d-block p-3" style={{ width: '100px', height: '100px' }} variant="top" src={backend} />
                         <Card.Body>
                             <Card.Title className="text-center">Backend</Card.Title>
@@ -53,7 +55,7 @@ const OverviewNskill = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow" style={{ width: '18rem', height: '18rem' }}>
+                    <Card className="shadow second-color myText-style" style={{ width: '18rem', height: '18rem' }}>
                         <Card.Img class="mx-auto d-block p-3" style={{ width: '100px', height: '100px' }} variant="top" src={tool} />
                         <Card.Body>
                             <Card.Title className="text-center">Others</Card.Title>

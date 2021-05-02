@@ -11,8 +11,9 @@ const Projects = () => {
     return (
         <Container>
             <Row>
-                <Col className="mt-5 text-center">
+                <Col className="mt-5 text-center second-color myText-style">
                     <h2>My Recent Projects</h2>
+                    <hr/>
                 </Col>
             </Row>
             <Row className="mt-5">
