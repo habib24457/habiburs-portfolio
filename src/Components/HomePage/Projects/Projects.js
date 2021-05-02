@@ -1,14 +1,14 @@
 import React from 'react';
-import { Row, Col,Carousel } from 'react-bootstrap';
+import { Row, Col,Carousel,Container } from 'react-bootstrap';
 import project1 from '../../../images/project1.png';
 import project2 from '../../../images/project2.png';
 import project3 from '../../../images/project3.png';
-import study from '../../../images/study.jpg';
+
 // Import Swiper styles
 
 const Projects = () => {
     return (
-        <>
+        <Container>
             <Row>
                 <Col className="mt-5 text-center">
                     <h2>My Recent Projects</h2>
@@ -16,7 +16,7 @@ const Projects = () => {
             </Row>
             <Row className="mt-5">
                 <Col xs={6} md={4}>
-                    <img style={{ width:'350px',height:'450px'}} src={study} alt=""/>
+                   
                 </Col>
                 <Col xs={12} md={8}>
                     <Carousel>
@@ -27,9 +27,8 @@ const Projects = () => {
                                 alt="First slide"
                             />
                             <Carousel.Caption>
-                                <h3 className="text-secondary">First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-
+                                <h3 style={{color:'black'}}>City Traveller</h3>
+                                <p style={{color:'black'}}>In this website user can buy tickets.</p>
                                 <a href="https://city-traveller-auth.web.app/home" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank" rel="noreferrer">Live Site</a>
                                 <a href="https://github.com/habib24457/City-Traveller-Auth" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="_blank" rel="noreferrer">Github Link</a>
                             </Carousel.Caption>
@@ -65,7 +64,7 @@ const Projects = () => {
                     </Carousel>
                 </Col>
             </Row>
-        </>
+        </Container>
     );
 };
 

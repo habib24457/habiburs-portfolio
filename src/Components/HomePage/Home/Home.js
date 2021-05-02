@@ -4,19 +4,21 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import { Container } from 'react-bootstrap';
 import './Home.css';
 //import Fade from 'react-reveal/Fade';
-import back from '../../../images/back.png';
+import back1 from '../../../images/back1.png';
+import back2 from '../../../images/back2.png';
 import OverviewNskill from '../OverviewNskill/OverviewNskill';
 import Footer from '../Footer/Footer';
 import Slide from 'react-reveal/Slide';
 import Projects from '../Projects/Projects';
 import ContactMe from '../ContactMe/ContactMe';
+//import back3 from '../../../images/back3.png';
 
 
 
 const Home = () => {
     return (
         <>
-        <Container fluid style={{backgroundImage:`url(${back})`,backgroundRepeat:'no-repeat', }}>
+        <Container fluid style={{backgroundImage:`url(${back1})`,backgroundRepeat:'no-repeat', width:'100%' }}>
             <NavigationBar></NavigationBar>
             <Slide left>
                 <Header></Header>
@@ -26,7 +28,7 @@ const Home = () => {
             <OverviewNskill></OverviewNskill>          
         </Container>
 
-        <Container>
+        <Container fluid style={{backgroundImage:`url(${back2})`,backgroundRepeat:'no-repeat', }} className="mt-5">
             <Projects></Projects>
         </Container>
 

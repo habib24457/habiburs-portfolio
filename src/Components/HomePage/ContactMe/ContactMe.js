@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 const ContactMe = () => {
     return (
         <>
-        <Row className="text-center">
+        <Row className="text-center mt-5 pt-5">
             <Col>
                 <h1>Contact me</h1> 
             </Col>
