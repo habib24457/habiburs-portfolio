@@ -7,7 +7,7 @@ const NavigationBar = () => {
             <Row>
                 <Col>                          
                  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="#home">Habibur's Portfolio</Navbar.Brand>
+                <Navbar.Brand href="#home">Habibur Rahman</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>

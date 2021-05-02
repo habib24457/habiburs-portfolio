@@ -4,22 +4,33 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import { Container } from 'react-bootstrap';
 import './Home.css';
 //import Fade from 'react-reveal/Fade';
-import LightSpeed from 'react-reveal/LightSpeed';
 import back from '../../../images/back.png';
 import OverviewNskill from '../OverviewNskill/OverviewNskill';
+import Footer from '../Footer/Footer';
+import Slide from 'react-reveal/Slide';
+import Projects from '../Projects/Projects';
+
+
 
 const Home = () => {
     return (
         <>
         <Container fluid style={{backgroundImage:`url(${back})`,backgroundRepeat:'no-repeat', }}>
             <NavigationBar></NavigationBar>
-            <LightSpeed left>
+            <Slide left>
                 <Header></Header>
-            </LightSpeed>          
+            </Slide>          
+        </Container>
+        <Container>
+            <OverviewNskill></OverviewNskill>          
         </Container>
 
         <Container>
-            <OverviewNskill></OverviewNskill>
+            <Projects></Projects>
+        </Container>
+
+        <Container fluid style={{background:'linear-gradient(45deg, #44abd6, #5c71e0',height:'200px'}}>
+            <Footer></Footer>
         </Container>
         </>
     );
