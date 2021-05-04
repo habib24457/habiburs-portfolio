@@ -21,7 +21,7 @@ const Projects = () => {
                 </Col>
             </Row>
 
-            <Row className="w-auto mt-5 p-5 justify-content-center" style={{ backgroundColor: '#0a1a2f' }}>
+            <Row className="w-auto mt-5 p-5 justify-content-center" style={{ backgroundColor: '#7c60f6' }}>
                 <Col>
                     <div class="card" style={{ width: '22rem' }}>
                         <img class="card-img-top project-image" src={project1} alt="" />
