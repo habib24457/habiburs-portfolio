@@ -4,10 +4,11 @@
 
 .myText-style{
     font-family: Helvetica;
+    color:#31466d;
 }
 
 .second-color{
-    color:rgb(80, 72, 72);
+    color:rgb(90, 80, 80);
 }
 
 .App {

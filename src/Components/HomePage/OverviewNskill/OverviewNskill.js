@@ -4,7 +4,6 @@ import frontend from '../../../images/front.png';
 import backend from '../../../images/backend.png';
 import tool from '../../../images/tool.png';
 import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 
 const OverviewNskill = () => {
     return (
@@ -21,7 +20,7 @@ const OverviewNskill = () => {
                 </Row>
             </Zoom>
 
-            <Slide right>
+            <Zoom>
             <Row className="mt-5 mb-5">
                 <Col>
                     <Card className="shadow second-color myText-style" style={{ width: '18rem', height: '18rem' }}>
@@ -71,7 +70,7 @@ const OverviewNskill = () => {
                     </Card>
                 </Col>
             </Row>
-            </Slide>
+            </Zoom>
         </>
     );
 };

@@ -5,7 +5,7 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <>
+        <div>
             <Row className="mt-5 pt-5 text-center second-color myText-style">
                 <Col>
                     <h2>My Blogs</h2>
@@ -50,7 +50,7 @@ const Blogs = () => {
                     </Col>
 
             </Row>
-        </>
+        </div>
     );
 };
 

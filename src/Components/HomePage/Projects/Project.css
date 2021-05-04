@@ -1,0 +1,23 @@
+.tags span{
+    display: inline-block;
+    padding: 0.35rem 0.5rem;
+   border: 2px solid rgb(49, 230, 230);
+    color: rgb(49, 70, 109);
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    margin:0.45rem;
+    font-size: 1rem;
+}
+
+.project-image{
+    padding: 0.45rem;
+    width:100%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.project-image:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+    overflow: hidden;
+}
