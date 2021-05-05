@@ -11,8 +11,12 @@ const ProjectsBlogs = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-12 mt-5 text-center description-text">
+                <div className="col-md-12 mt-5 text-center second-color">
                     <h2>My Recent Projects</h2>
+                    <p className="myText-style">There are some projects that I have built recently.
+                    <br />
+                    You will find more cool projects in my Github.
+                        </p>
                     <hr />
                 </div>
             </div>
@@ -98,6 +102,10 @@ const ProjectsBlogs = () => {
             <div className="row">
                 <div className="col-md-12 mt-5 text-center second-color myText-style">
                     <h2>Read My Blogs</h2>
+                    <p className="myText-style">I love to write down things together.
+                    <br />
+                    These blogs I have written from my understanding in different topics. 
+                    </p>
                     <hr />
                 </div>
             </div>

@@ -16,9 +16,8 @@ const Header = () => {
                                 <h1><span className="second-color">I'm Habibur Rahman</span> </h1>
                                 <h5 className="second-color">Jr. Full-Stack Developer| Student</h5>
                                 <h6>I am a passionate web developer specialized in both frontend and backend.
-                                    I like to work with individuals that love the product we are making,
-                                     putting a ton of effort to enhance what we are creating. 
-                                     I believe I am capable to accept new challenges and meet my employer's expectations.</h6>
+                                    I like to work in a team and share my ideas as well as gather knowledge from others.
+                                    I believe I am capable of accepting new challenges and meet my employer's expectations.</h6>
                             </div>
                             <br/>
                             <br/>
