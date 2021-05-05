@@ -4,11 +4,11 @@
 
 .myText-style{
     font-family: Helvetica;
-    color:#31466d;
+    color:#64FFDA;
 }
 
 .second-color{
-    color:rgb(90, 80, 80);
+    color:#8892B0;
 }
 
 .brand-button{
@@ -18,6 +18,10 @@
     border-radius: 3px;
     border:none;
     text-decoration: none;
+}
+
+.description-text{
+    color:#2a3146;
 }
 
 .App {

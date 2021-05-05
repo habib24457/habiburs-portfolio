@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+//import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,9 +8,10 @@ import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-ic
 
 const Footer = () => {
     return (
-        <>
-            <Row className="text-center mt-5 text-white">
-                <Col>
+        <div className="container fluid">
+        <div className="footer">
+            <div className="row mt-5 text-white">
+                <div className="col-md-12 text-center">
                     <h3>Stay in touch</h3>
                     <a className="mr-2" href="https://www.linkedin.com/in/habib24457/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -23,16 +24,17 @@ const Footer = () => {
                     <a className="mr-2" href="https://twitter.com/theHabibGuy" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faTwitter} size="2x" />
                     </a>
-                </Col>
-            </Row>
-            <Row className="mt-1 text-white">
-                <Col className="text-center">
+                </div>
+            </div>
+            <div className="row mt-1">
+                <div className="col-md-12 text-center myText-style">
                     <p>Phone: +491630809858</p>
                     <p>Email: habiburehman390@gmail.com</p>
                     <p>© Copyright — 2021 — by Habibur Rahman</p>
-                </Col>
-            </Row>
-        </>
+                </div>
+            </div>
+        </div>
+        </div>
     );
 };
 

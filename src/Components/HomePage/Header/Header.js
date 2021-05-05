@@ -1,22 +1,24 @@
 import React from 'react';
 import './Header.css';
-import { Row, Col, Container } from 'react-bootstrap';
 import profile from '../../../images/profile.jpg';
 
 
 const Header = () => {
     return (
-        <Container>
-            <Row className="mt-5">
-            <Col className="mt-5 pt-5 text-center">
+        <>
+            <div className="row mt-5">
+            <div className="col-md-6 mt-5 pt-5 text-center">
                         <img className="shadow-lg" style={{ width: '300px', height: '350px',padding:'4px',borderRadius: '15px'}} src={profile} alt="profile" />
-                    </Col> 
-                        <Col className=" mt-5 pt-5" >
+                    </div> 
+                        <div className="col-md-4 mt-5 pt-5 text-center" >
                             <div className="myText-style">
-                                <h1 className="second-color">Hi</h1>
+                                <h1 className="second-color">Hello,</h1>
                                 <h1><span className="second-color">I'm Habibur Rahman</span> </h1>
-                                <h5 className="second-color">Student | Web Developer</h5>
-                                <h5>I am a passionate web developer specialized in both frontend and backend.</h5>
+                                <h5 className="second-color">Jr. Full-Stack Developer| Student</h5>
+                                <h6>I am a passionate web developer specialized in both frontend and backend.
+                                    I like to work with individuals that love the product we are making,
+                                     putting a ton of effort to enhance what we are creating. 
+                                     I believe I am capable to accept new challenges and meet my employer's expectations.</h6>
                             </div>
                             <br/>
                             <br/>
@@ -24,10 +26,10 @@ const Header = () => {
                         href="https://drive.google.com/file/d/1AvijN0Zwv7oEhxRNDmXlRDboWXgo3rfb/view?usp=sharing" 
                         target="_blank" rel="noreferrer" role="button" style={{textDecoration:'none'}}>
                             Download My Resume</a>
-                        </Col>                         
+                        </div>                         
 
-            </Row>
-        </Container>
+            </div>
+        </>
     );
 };
 
