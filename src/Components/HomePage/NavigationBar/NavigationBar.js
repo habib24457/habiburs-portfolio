@@ -22,7 +22,7 @@ const NavigationBar = () => {
                      <FontAwesomeIcon icon={faGithub} size="2x" />
                      </Nav.Link>
 
-                     <Nav.Link href="https://twitter.com/imhabib007" target="_blank" rel="noreferrer">
+                     <Nav.Link href="https://twitter.com/theHabibGuy" target="_blank" rel="noreferrer">
                      <FontAwesomeIcon icon={faTwitter} size="2x" />
                      </Nav.Link>
                     

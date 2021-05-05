@@ -20,7 +20,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
 
-                    <a className="mr-2" href="https://twitter.com/imhabib007" target="_blank" rel="noreferrer">
+                    <a className="mr-2" href="https://twitter.com/theHabibGuy" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faTwitter} size="2x" />
                     </a>
                 </Col>
