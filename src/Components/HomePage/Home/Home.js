@@ -34,16 +34,15 @@ const Home = () => {
             </Container>
 
             <Container>
-                <Zoom>
                     <Blogs></Blogs>
-                </Zoom>
             </Container>
 
             <Container  fluid style={{ backgroundImage: `url(${back4})`, backgroundRepeat: 'no-repeat' }} >
-
+                <Zoom>
                 <ContactMe></ContactMe>
-
+                </Zoom>               
             </Container>
+
             <Container fluid style={{ background: 'linear-gradient(45deg, #44abd6, #5c71e0', height: '200px' }}
             >
                 <Footer></Footer>

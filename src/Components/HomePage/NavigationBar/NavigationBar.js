@@ -1,5 +1,7 @@
 import React from 'react';
 import {Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin,faGithub,faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 const NavigationBar = () => {
     return (
@@ -7,15 +9,23 @@ const NavigationBar = () => {
             <Row>
                 <Col>                          
                  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="#home">Habibur Rahman</Navbar.Brand>
+                <Navbar.Brand href="/home">
+                   <h4>Habibur Rahman </h4> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="https://drive.google.com/file/d/10Y8Gbl2ZzCs_FTj9hk6-AdZ_8gfIuPmP/view?usp=sharing" target="_blank">Cover Letter</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Projects
+                     <Nav.Link href="https://www.linkedin.com/in/habib24457/" target="_blank" rel="noreferrer">
+                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
                      </Nav.Link>
-                     <Nav.Link href="#deets">Blogs</Nav.Link>
+
+                     <Nav.Link href="https://github.com/habib24457" target="_blank" rel="noreferrer">
+                     <FontAwesomeIcon icon={faGithub} size="2x" />
+                     </Nav.Link>
+
+                     <Nav.Link href="https://twitter.com/imhabib007" target="_blank" rel="noreferrer">
+                     <FontAwesomeIcon icon={faTwitter} size="2x" />
+                     </Nav.Link>
+                    
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

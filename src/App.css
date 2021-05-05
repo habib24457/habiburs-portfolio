@@ -11,6 +11,15 @@
     color:rgb(90, 80, 80);
 }
 
+.brand-button{
+    padding:10px;
+    background-color: rgb(124, 96, 246);
+    color: #fff;
+    border-radius: 3px;
+    border:none;
+    text-decoration: none;
+}
+
 .App {
     
   }
