@@ -86,10 +86,10 @@ const Projects = () => {
                                 <span className="">Bootstrap</span>
                             </ul>
                         <div class="card-body d-flex justify-content-between">
-                            <a href="https://picnic-supermarket-auth.web.app/home"target="_blank" rel="noreferrer" style={{color:'#31466d',textDecoration: 'none'}}>
+                            <a href="https://stupefied-rosalind-165088.netlify.app/"target="_blank" rel="noreferrer" style={{color:'#31466d',textDecoration: 'none'}}>
                             <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />Live Site
                             </a>
-                            <a href="https://github.com/habib24457/picnic-online-supermarket" target="_blank" rel="noreferrer" style={{color:'#31466d',textDecoration: 'none'}}>
+                            <a href="https://github.com/habib24457/Football-mania" target="_blank" rel="noreferrer" style={{color:'#31466d',textDecoration: 'none'}}>
                             <FontAwesomeIcon icon={faGithub} size="2x" />Code
                             </a>
                         </div>
