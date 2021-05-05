@@ -9,7 +9,7 @@ const NavigationBar = () => {
             <Row>
                 <Col>                          
                  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="/home">
+                <Navbar.Brand>
                    <h4>Habibur Rahman </h4> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

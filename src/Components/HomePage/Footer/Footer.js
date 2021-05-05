@@ -25,8 +25,10 @@ const Footer = () => {
                     </a>
                 </Col>
             </Row>
-            <Row className="mt-5 second-color">
+            <Row className="mt-1 text-white">
                 <Col className="text-center">
+                    <p>Phone: +491630809858</p>
+                    <p>Email: habiburehman390@gmail.com</p>
                     <p>© Copyright — 2021 — by Habibur Rahman</p>
                 </Col>
             </Row>
