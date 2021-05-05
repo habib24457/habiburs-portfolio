@@ -21,7 +21,9 @@ const ContactMe = () => {
                         class="form-control" id="" aria-describedby="emailHelp" 
                         placeholder="Enter Your Name" required/> 
                         <br/>
-                         <textarea class="form-control" id="" rows="3" placeholder="Write a message" required></textarea> 
+                        <input type="hidden" name="_next" value="https://habibur-portfolio.netlify.app/"/>
+                        <input type="hidden" name="_captcha" value="false"/>
+                         <textarea class="form-control" id="" rows="3" name="message" placeholder="Write a message" required></textarea> 
                          <br/>     
                          <button type="submit" class="brand-button">Send Email</button>
                     </div>
