@@ -104,7 +104,7 @@ const ProjectsBlogs = () => {
                     <h2>Read My Blogs</h2>
                     <p className="myText-style">I love to write down things together.
                     <br />
-                    These blogs I have written from my understanding in different topics. 
+                    These blogs I have written from my understanding in different topics.
                     </p>
                     <hr />
                 </div>
@@ -112,28 +112,30 @@ const ProjectsBlogs = () => {
 
 
             <div className="row">
-                <div className="col-md-4">
-                    <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
-                        <div class="card-header">Javascript</div>
-                        <div class="card-body">
-                            <h5 class="card-title">10 Javascript String methods</h5>
-                            <p class="card-text">This blog describes top 10 basic methods of String in one place with examples.</p>
+               
+                    <div className="col-md-4">
+                        <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
+                            <div class="card-header">React</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Fundamentals React</h5>
+                                <p class="card-text">This is a easy guide to react,as this blog describes
+                            some of the core fundamentals of react.</p>
 
-                            <a href="https://habiburehman390.medium.com/10-javascript-string-functionalities-a1b486ca83c3" target="_blank" rel="noreferrer">
-                                <button className="brand-button">Read My Blog</button>
-                            </a>
+                                <a href="https://habiburehman390.medium.com/10-things-you-must-know-about-react-764bcab587ac" target="_blank" rel="noreferrer">
+                                    <button className="brand-button">Read My Blog</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="col-md-4">
+                    <div className="col-md-4">
                     <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
                         <div class="card-header">Javascript</div>
                         <div class="card-body">
-                            <h5 class="card-title">10 Javascript String methods</h5>
-                            <p class="card-text">This blog describes top 10 basic methods of String in one place with examples.</p>
+                            <h5 class="card-title">Cool Javascript Blog</h5>
+                            <p class="card-text">This blog focuses on some of the random but essential features about JS and web development. </p>
 
-                            <a href="https://habiburehman390.medium.com/10-javascript-string-functionalities-a1b486ca83c3" target="_blank" rel="noreferrer">
+                            <a href="https://habiburehman390.medium.com/javascript-error-handling-fe9a8cbf515b" target="_blank" rel="noreferrer">
                                 <button className="brand-button">Read My Blog</button>
                             </a>
                         </div>
