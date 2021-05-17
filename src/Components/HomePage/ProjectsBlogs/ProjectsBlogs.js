@@ -132,10 +132,10 @@ const ProjectsBlogs = () => {
                     <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
                         <div class="card-header">Javascript</div>
                         <div class="card-body">
-                            <h5 class="card-title">Cool Javascript Blog</h5>
-                            <p class="card-text">This blog focuses on some of the random but essential features about JS and web development. </p>
+                            <h5 class="card-title">Tricky Javascript Staffs</h5>
+                            <p class="card-text">This blog focuses on some of the random but Tricky or essential features about JS and web development. </p>
 
-                            <a href="https://habiburehman390.medium.com/javascript-error-handling-fe9a8cbf515b" target="_blank" rel="noreferrer">
+                            <a href="https://dev.to/habiburrahman/things-about-javascript-you-ll-have-fun-learning-3nl9" target="_blank" rel="noreferrer">
                                 <button className="brand-button">Read My Blog</button>
                             </a>
                         </div>
@@ -146,10 +146,10 @@ const ProjectsBlogs = () => {
                     <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
                         <div class="card-header">Javascript</div>
                         <div class="card-body">
-                            <h5 class="card-title">10 Javascript String methods</h5>
-                            <p class="card-text">This blog describes top 10 basic methods of String in one place with examples.</p>
+                            <h5 class="card-title">Javascript,ES6;CrossBrowser testing</h5>
+                            <p class="card-text">This blog summarizes some JavaScript topics that I have learned.</p>
 
-                            <a href="https://habiburehman390.medium.com/10-javascript-string-functionalities-a1b486ca83c3" target="_blank" rel="noreferrer">
+                            <a href="https://habiburehman390.medium.com/javascript-error-handling-fe9a8cbf515b" target="_blank" rel="noreferrer">
                                 <button className="brand-button">Read My Blog</button>
                             </a>
                         </div>
