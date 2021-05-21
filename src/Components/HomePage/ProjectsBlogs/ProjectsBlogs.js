@@ -23,7 +23,37 @@ const ProjectsBlogs = () => {
 
             <div className="row">
                 <div className="col-md-4">
-                    <div class="card" style={{ width: '22rem' }}>
+                    <div class="card" style={{ width: '22rem',height: '35rem'}}>
+                        <img class="card-img-top project-image" src={project2} alt="" />
+                        <div class="card-body text-center description-text">
+                            <h5 class="card-title font-weight-bold">Picnic Supermarket</h5>
+                            <p class="card-text">This is a e-commerce website where the user can buy products and the admin can add and manage products.</p>
+                        </div>
+                        <ul class="tags">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                            <span>Bootstrap</span>
+                            <span>Firebase</span>
+                            <span>Heroku</span>
+                        </ul>
+                        <div class="card-body d-flex justify-content-between">
+                            <a href="https://picnic-supermarket-auth.web.app/home" target="_blank" rel="noreferrer" style={{ color: '#31466d', textDecoration: 'none' }}>
+                                <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />Live Site
+                            </a>
+                            <a href="https://github.com/habib24457/Picnic-e-commerce" target="_blank" rel="noreferrer" style={{ color: '#31466d', textDecoration: 'none' }}>
+                                <FontAwesomeIcon icon={faGithub} size="2x" />Client
+                            </a>
+                            <a href="https://github.com/habib24457/picnic-ecommerce-server" target="_blank" rel="noreferrer" style={{ color: '#31466d', textDecoration: 'none' }}>
+                                <FontAwesomeIcon icon={faGithub} size="2x" />Server
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col-md-4">
+                    <div class="card" style={{ width: '22rem',height: '35rem' }}>
                         <img class="card-img-top project-image" src={project1} alt="" />
 
                         <div class="card-body text-center description-text">
@@ -49,32 +79,10 @@ const ProjectsBlogs = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4">
-                    <div class="card" style={{ width: '22rem' }}>
-                        <img class="card-img-top project-image" src={project2} alt="" />
-                        <div class="card-body text-center description-text">
-                            <h5 class="card-title font-weight-bold">Picnic Supermarket</h5>
-                            <p class="card-text">This is a e-commerce website where the user can buy products and the admin can add and manage products.</p>
-                        </div>
-                        <ul class="tags">
-                            <span className="">React</span>
-                            <span className="">Express</span>
-                            <span className="">MongoDB</span>
-                            <span className="">Bootstrap</span>
-                        </ul>
-                        <div class="card-body d-flex justify-content-between">
-                            <a href="https://picnic-supermarket-auth.web.app/home" target="_blank" rel="noreferrer" style={{ color: '#31466d', textDecoration: 'none' }}>
-                                <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />Live Site
-                            </a>
-                            <a href="https://github.com/habib24457/picnic-online-supermarket" target="_blank" rel="noreferrer" style={{ color: '#31466d', textDecoration: 'none' }}>
-                                <FontAwesomeIcon icon={faGithub} size="2x" />Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div className="col-md-4">
-                    <div class="card" style={{ width: '22rem' }}>
+                    <div class="card" style={{ width: '22rem',height: '35rem' }}>
                         <img class="card-img-top project-image" src={project3} alt="" />
                         <div class="card-body text-center description-text">
                             <h5 class="card-title  font-weight-bold">Football Mania</h5>
