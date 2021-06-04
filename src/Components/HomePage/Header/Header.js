@@ -22,7 +22,7 @@ const Header = () => {
                             <br/>
                             <br/>
                             <a class="resume-button"
-                        href="https://drive.google.com/file/d/1fxyziOtr4rfTjLhm_PsavxkdF756X1e_/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/1_AH2KeGA-qImJoVvC5Bie1WDg4XIYha8/view?usp=sharing" 
                         target="_blank" rel="noreferrer" role="button" style={{textDecoration:'none'}}>
                             Download My Resume</a>
                         </div>                         
