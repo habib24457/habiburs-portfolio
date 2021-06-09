@@ -96,7 +96,7 @@ const ProjectsBlogs = () => {
                         <img class="card-img-top project-image" src={project1} alt="" />
 
                         <div class="card-body text-center description-text">
-                            <h5 class="card-title  font-weight-bold">Plane Ticket</h5>
+                            <h5 class="card-title  font-weight-bold">City Traveller</h5>
                             <p class="card-text">In this website the user can choose a ride and book tickets.</p>
                             <ul>
                                 <li>Client: Authenticated user can choose vehicle and select different tickets.</li>
