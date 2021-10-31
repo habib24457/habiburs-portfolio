@@ -14,7 +14,7 @@ const Header = () => {
                             <div className="myText-style">
                                 <h1 className="second-color">Hello,</h1>
                                 <h1><span className="second-color">I'm Habibur Rahman</span> </h1>
-                                <h5 className="second-color">Jr. Full-Stack Developer| Student</h5>
+                                <h5 className="second-color">Jr. Full-Stack Developer | MERN Stack Developer | Student</h5>
                                 <h6>I am a passionate web developer specialized in both frontend and backend.
                                     I like to work in a team and share my ideas as well as gather knowledge from others.
                                     I believe I am capable of accepting new challenges and meet my employer's expectations.</h6>

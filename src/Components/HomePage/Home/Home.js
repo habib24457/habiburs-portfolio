@@ -15,6 +15,7 @@ import ContactMe from '../ContactMe/ContactMe';
 //import back3 from '../../../images/back3.png';
 import Zoom from 'react-reveal/Zoom';
 import ProjectsBlogs from '../ProjectsBlogs/ProjectsBlogs';
+import Experience from '../Experience/Experience';
 
 
 
@@ -34,7 +35,7 @@ const Home = () => {
                 <Header></Header>
                 
             </div>
-
+            <Experience></Experience>
             <OverviewNskill></OverviewNskill>
             <ProjectsBlogs></ProjectsBlogs>
 

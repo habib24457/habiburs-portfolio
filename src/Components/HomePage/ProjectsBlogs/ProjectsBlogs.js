@@ -230,6 +230,33 @@ const ProjectsBlogs = () => {
 
 
             <div className="row">
+            <div className="col-md-4">
+                    <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
+                        <div class="card-header">React</div>
+                        <div class="card-body">
+                            <h5 class="card-title">All React Hooks</h5>
+                            <p class="card-text">In this blog I tried to explain some of the most popular or most used react hooks.</p>
+                            <a href="https://habiburehman390.medium.com/all-about-react-hooks-8d192a33504c" target="_blank" rel="noreferrer">
+                                <button className="brand-button">Read My Blog</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
+                        <div class="card-header">Typescript</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Make API call using Typescript in React</h5>
+                            <p class="card-text">This blog describes, how to make an API call while using typescript in a React project.</p>
+
+                            <a href="https://habiburehman390.medium.com/how-to-make-an-api-call-using-typescript-in-react-project-c72aa51e2896" target="_blank" rel="noreferrer">
+                                <button className="brand-button">Read My Blog</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="col-md-4">
                     <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
                         <div class="card-header">React</div>
@@ -244,7 +271,7 @@ const ProjectsBlogs = () => {
                         </div>
                     </div>
                 </div>
-
+                
                 <div className="col-md-4">
                     <div class="card text-white bg-info mb-3 text-center shadow rounded" style={{ width: '18rem', height: '18rem' }}>
                         <div class="card-header">Javascript</div>

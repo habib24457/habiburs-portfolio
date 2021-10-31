@@ -31,6 +31,7 @@ const OverviewNskill = () => {
                                     <ul>
                                         <li>React JS</li>
                                         <li>Javascript,ES6</li>
+                                        <li>Typescript</li>
                                         <li>Bootstrap,Material UI</li>
                                         <li>HTML5,CSS3,SASS</li>
                                     </ul>
