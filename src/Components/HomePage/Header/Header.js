@@ -39,7 +39,7 @@ const Header = () => {
           <br />
           <a
             class="resume-button"
-            href="https://drive.google.com/file/d/1FIeQpLnnN9LqurNnHtMLbDm0lL2wM2e0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eVYdPi8uBvkFpuotqZ3Ot3eR7Ba0QoUy/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             role="button"
