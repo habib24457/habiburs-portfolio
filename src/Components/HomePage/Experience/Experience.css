@@ -2,3 +2,25 @@
     width: 40vw;
     margin: auto;
 }
+
+.recomm-button{
+    animation:pulse 2000ms infinite;
+    padding:2px;
+    background-color: rgb(124, 96, 246);
+    color: #fff;
+  }
+
+  @keyframes pulse {
+    0%{
+      transform:scale(.09);
+      box-shadow:0 0 0 0 rgb(124, 96, 245.7);
+    }
+    70%{
+      transform:scale(1);
+      box-shadow:0 0 0 10px rgb(124, 96, 245);
+    }
+    100%{
+      transform:scale(.09);
+      
+    }
+  }

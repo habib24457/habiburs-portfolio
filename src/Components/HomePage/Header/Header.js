@@ -26,7 +26,7 @@ const Header = () => {
               <span className="second-color">I'm Habibur Rahman</span>{" "}
             </h1>
             <h5 className="second-color">
-              Jr. Full-Stack Developer | MERN Stack Developer | Student
+              Full-Stack Developer | MERN Stack Developer
             </h5>
             <h6>
               I am a passionate web developer specialized in both frontend and
@@ -39,7 +39,7 @@ const Header = () => {
           <br />
           <a
             class="resume-button"
-            href="https://drive.google.com/file/d/1eVYdPi8uBvkFpuotqZ3Ot3eR7Ba0QoUy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oKLNUR_p9gdznkoGmXvQJglEigaPwfOX/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             role="button"

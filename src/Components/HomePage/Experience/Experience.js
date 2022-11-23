@@ -20,6 +20,17 @@ const Experience = () => {
               Tegoly GmbH
             </a>{" "}
             <br />
+            <br />
+            <a
+              class="recomm-button"
+              href="https://drive.google.com/file/d/1YoNEbyQayNE3SSAw0VvcS4k3KHGr4RQj/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+              style={{ textDecoration: "none" }}
+            >
+              Check Recommendation Letter
+            </a>
           </p>
           <ul className="list-style">
             <li className="myText-style">
