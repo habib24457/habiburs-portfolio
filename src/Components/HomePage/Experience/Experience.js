@@ -34,19 +34,23 @@ const Experience = () => {
           </p>
           <ul className="list-style">
             <li className="myText-style">
-              Developed interactive frontend features integrated with Microsoft
-              Teams using React JS, Typescript and some microsoft libraries
-              Fluent UI, Microsoft live share SDK
+              Writing modern, clean, maintainable code for a diverse array of
+              client and internal projects
             </li>
 
             <li className="myText-style">
-              Developed and converted complicated desktop pages into mobile
-              compatible pages.
+              Working with a variety of different languages, platforms,
+              frameworks, and content management systems such as JavaScript,
+              TypeScript, React, redux, Express, Node JS.
             </li>
             <li className="myText-style">
-              Integrated REST API, CRUD operation etc.
+              Worked with microsoft's Live share SDK, created UI for mobile
+              devices. Design and maintain REST API on a daily basis
             </li>
-            <li className="myText-style">Worked briefly with c# dotnet. </li>
+            <li className="myText-style">
+              Communicate with different teams of developers, designers and
+              clients regularly.{" "}
+            </li>
           </ul>
 
           <hr />

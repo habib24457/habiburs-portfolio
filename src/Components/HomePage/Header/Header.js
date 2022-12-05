@@ -26,7 +26,7 @@ const Header = () => {
               <span className="second-color">I'm Habibur Rahman</span>{" "}
             </h1>
             <h5 className="second-color">
-              Full-Stack Developer | MERN Stack Developer
+              Full-Stack Developer | MERN Stack Developer | Frontend Developer
             </h5>
             <h6>
               I am a passionate web developer specialized in both frontend and
@@ -36,8 +36,7 @@ const Header = () => {
             </h6>
           </div>
           <br />
-          <br />
-          <a
+          {/* <a
             class="resume-button"
             href="https://drive.google.com/file/d/1oKLNUR_p9gdznkoGmXvQJglEigaPwfOX/view?usp=sharing"
             target="_blank"
@@ -46,7 +45,7 @@ const Header = () => {
             style={{ textDecoration: "none" }}
           >
             Download My Resume
-          </a>
+          </a> */}
         </div>
       </div>
     </>
