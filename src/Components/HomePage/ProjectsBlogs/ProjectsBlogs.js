@@ -1,7 +1,7 @@
 import React from "react";
 import project1 from "../../../images/project1.png";
 import project2 from "../../../images/project2.png";
-import project3 from "../../../images/project3.png";
+import project3 from "../../../images/project_type.png";
 import prism from "../../../images/project01.png";
 import slider from "../../../images/slider.png";
 import hungryMonster from "../../../images/hungryMonster.png";
@@ -81,6 +81,55 @@ const ProjectsBlogs = () => {
               >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
                 Server
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div class="card" style={{ width: "22rem", height: "40rem" }}>
+            <img class="card-img-top project-image" src={project3} alt="" />
+            <div class="card-body text-center description-text">
+              <h5 class="card-title font-weight-bold">Typescript-crypto-app</h5>
+              <p class="card-text">
+                A Client site app build with typescript and public API.
+              </p>
+              <ul>
+                <li>
+                  Created a React app with typescript to show crypto updates and
+                  currency conversion from the following API.
+                </li>
+                <li>The API : https://api.coincap.io/v2/exchanges</li>
+
+                <li>
+                  Used NASA public API to show daily astronomical image, also
+                  used typescript.
+                </li>
+              </ul>
+            </div>
+            <ul class="tags">
+              <span>React</span>
+              <span>Typescript</span>
+              <span>Netlify</span>
+            </ul>
+            <div class="card-body d-flex justify-content-between">
+              <a
+                href="https://funny-pavlova-88e535.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#31466d", textDecoration: "none" }}
+              >
+                <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />
+                Live Site
+              </a>
+              <a
+                href="https://github.com/habib24457/awesome-crypto-typescript"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#31466d", textDecoration: "none" }}
+              >
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+                Client
               </a>
             </div>
           </div>
@@ -190,9 +239,7 @@ const ProjectsBlogs = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="row">
         <div className="col-md-4">
           <div class="card" style={{ width: "22rem", height: "35rem" }}>
             <img class="card-img-top project-image" src={slider} alt="" />
@@ -267,45 +314,6 @@ const ProjectsBlogs = () => {
               </a>
               <a
                 href="https://github.com/habib24457/hungry-monster-api"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "#31466d", textDecoration: "none" }}
-              >
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-                Code
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4">
-          <div class="card" style={{ width: "22rem", height: "35rem" }}>
-            <img class="card-img-top project-image" src={project3} alt="" />
-            <div class="card-body text-center description-text">
-              <h5 class="card-title  font-weight-bold">Football Mania</h5>
-              <p class="card-text">
-                After fetching data from third party sports API, this website
-                shows the details of different data of football teams.
-              </p>
-            </div>
-            <ul class="tags">
-              <span className="">React</span>
-              <span className="">React-Router</span>
-              <span className="">API</span>
-              <span className="">Bootstrap</span>
-            </ul>
-            <div class="card-body d-flex justify-content-between">
-              <a
-                href="https://stupefied-rosalind-165088.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "#31466d", textDecoration: "none" }}
-              >
-                <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />
-                Live Site
-              </a>
-              <a
-                href="https://github.com/habib24457/Football-mania"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "#31466d", textDecoration: "none" }}
