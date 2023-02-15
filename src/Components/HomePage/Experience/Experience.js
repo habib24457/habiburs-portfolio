@@ -21,7 +21,7 @@ const Experience = () => {
             </a>{" "}
             <br />
             <br />
-            <a
+            {/* <a
               class="recomm-button"
               href="https://drive.google.com/file/d/1YoNEbyQayNE3SSAw0VvcS4k3KHGr4RQj/view?usp=sharing"
               target="_blank"
@@ -30,7 +30,7 @@ const Experience = () => {
               style={{ textDecoration: "none" }}
             >
               Check Recommendation Letter
-            </a>
+            </a> */}
           </p>
           <ul className="list-style">
             <li className="myText-style">

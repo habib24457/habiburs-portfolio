@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.css";
-import profile from "../../../images/profile.jpg";
+//import profile from "../../../images/profile.jpg";
 
 const Header = () => {
   return (
     <>
       <div className="row mt-5">
-        <div className="col-md-6 mt-5 pt-5 text-center">
+        {/* <div className="col-md-6 mt-5 pt-5 text-center">
           <img
             className="shadow-lg"
             style={{
@@ -18,25 +18,8 @@ const Header = () => {
             src={profile}
             alt="profile"
           />
-        </div>
-        <div className="col-md-4 mt-5 pt-5 text-center">
-          <div className="myText-style">
-            <h1 className="second-color">Hello,</h1>
-            <h1>
-              <span className="second-color">I'm Habibur Rahman</span>{" "}
-            </h1>
-            <h5 className="second-color">
-              Full-Stack Developer | MERN Stack Developer | Frontend Developer
-            </h5>
-            <h6>
-              I am a passionate web developer specialized in both frontend and
-              backend. I like to work in a team and share my ideas as well as
-              gather knowledge from others. I believe I am capable of accepting
-              new challenges and meet my employer's expectations.
-            </h6>
-          </div>
-          <br />
-          {/* <a
+        </div> 
+           {/* <a
             class="resume-button"
             href="https://drive.google.com/file/d/1oKLNUR_p9gdznkoGmXvQJglEigaPwfOX/view?usp=sharing"
             target="_blank"
@@ -46,7 +29,28 @@ const Header = () => {
           >
             Download My Resume
           </a> */}
+
+        <div className="col-md-3"></div>
+
+        <div className="col-md-6 mt-5 pt-5 text-center">
+          <div className="myText-style">
+            <h1 className="second-color">Hello,</h1>
+            <h1>
+              <span className="second-color">I'm Habibur Rahman</span>{" "}
+            </h1>
+            <h5 className="second-color">
+              Full-Stack Developer | MERN Stack Developer
+            </h5>
+            <h6>
+              I am a passionate web developer specialized in both frontend and
+              backend. I like to work in a team and share my ideas as well as
+              gather knowledge from others. I believe I am capable of accepting
+              new challenges and meet my employer's expectations.
+            </h6>
+          </div>
+          <br />
         </div>
+        <div className="col-md-3"></div>
       </div>
     </>
   );
